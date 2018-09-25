@@ -1,0 +1,33 @@
+// MIXIN
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+// VARIABLES
+@import 'partials/variables.scss';
+
+// NESTING / PARTIALS / IMPORT
+@import 'partials/header.scss';
+@import 'partials/container.scss';
+@import 'partials/container2.scss';
+@import 'partials/container3.scss';
+@import 'partials/container4.scss';
+@import 'partials/footer.scss';
+
+// INHERITANCE: Utilizes the use of @extend in two unique selectors for highlighting the class .authors
+@import 'partials/highlight.scss';
+
+// OPERATORS --- See _home-page.scss
+// OPERATORS --- See _container.scss
+
+// Page Specificity
+@import 'pages/home-page.scss';
+
+// Google Font Specificity
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+
+
+

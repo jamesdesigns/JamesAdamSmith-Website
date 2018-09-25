@@ -1,0 +1,23 @@
+// Home Page SCSS
+body {
+    font-family: $font-main;
+    font-size: $font-size - 2;  // OPERATORS
+    margin:0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: $font-header;
+    font-weight: lighter;
+    font-size: 135%;
+    color: $blue;
+}
+
+p {
+    color: $dark-gray;
+}
+
+
+
+
+

@@ -1,0 +1,75 @@
+// Header SCSS
+
+.header {
+
+    nav {   
+        .logo-header {
+            img.icon {
+            margin-top: 3px;
+            margin-left: 5px;
+            font-family: $font-main;
+            font-weight: 800;
+            float: left;
+            }
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: transparent;
+            float: right;
+        }
+
+        .topnav a {
+          float: left;
+          display: block;
+          color: $blue;
+          text-align: center;
+          padding: 8px;
+          text-decoration: none;
+          font-family: $font-main;
+          font-weight: 700;    
+        }
+
+        .topnav a:hover {
+          background-color: transparent;
+          color: $white;
+        }
+
+        .active {
+          color: $white;
+        }
+
+        .topnav .icon {
+          display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            // original
+            // .topnav a {display: none;}
+            // Updated
+           .topnav a {display: none;} 
+          // .topnav a:not(:first-child) {display: none;}
+          .topnav a.icon {
+            float: right;
+            display: block;
+          }
+        }
+
+        @media screen and (max-width: 600px) {
+          .topnav.responsive {position: relative;}
+          .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+        }
+
+	} // End of Nav
+} // End of Header
+
+

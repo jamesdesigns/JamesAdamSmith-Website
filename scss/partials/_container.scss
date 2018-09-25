@@ -1,0 +1,19 @@
+// Container SCSS
+
+.container {
+    .item1{
+        // Gradient Background    
+        background: #757F9A;
+        background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A);
+        background: linear-gradient(to left, #D7DDE8, #757F9A);
+        width: 100%;
+            // Header Image
+            img.center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                background-image: url("img/hero.png");
+                width: 860px/940px * 100%; // OPERATORS
+        }
+    }
+}

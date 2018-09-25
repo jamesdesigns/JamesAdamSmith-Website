@@ -1,0 +1,68 @@
+// container4 SCSS
+
+.container4 {
+    min-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    .author1 {
+        @extend %author-highlight;
+
+        p {
+            line-height: 1.5;
+            margin: 8px 2px;
+            color: $gray;
+            padding: 0 10px;
+        }
+        
+        p:last-child {
+            margin-bottom: 25px;
+        }
+        
+        h3 {
+            background-color: $purple;
+            color: $white;
+            padding: 8px;
+            margin-top: -1px;
+            text-align: center;
+        }
+        .subject {
+            font-family: $font-main;
+            font-size: 80%;
+        }
+}
+
+    .author2 {
+      @extend %author-highlight;
+
+        p {
+            line-height: 1.5;
+            margin: 8px 2px;
+            color: $gray;
+            padding: 0 10px;
+        }
+    
+        p:last-child {
+            margin-bottom: 25px;
+        }
+    
+        h3 {
+            background-color: $purple;
+            color: $white;
+            padding: 8px;
+            margin-top: -1px;
+            text-align: center;
+        }
+            .subject {
+            font-family: $font-main;
+            font-size: 80%;
+        }
+}
+
+}
+
+
+
