@@ -5,10 +5,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: $light-gray;
+    background: $light-purple; // Create a variable ex $light-purple
+    
+    .quote {
+        color: $white;
+    }
 
         .bestSeller {
             text-align: center;
+            padding: 10%;
             margin-top: 20px;
             font-size: 130%;
             h2 {

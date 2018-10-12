@@ -5,24 +5,24 @@
     nav {   
         .logo-header {
             img.icon {
-            margin-top: 3px;
-            margin-left: 5px;
-            font-family: $font-main;
-            font-weight: 800;
-            float: left;
+                margin-top: 3px;
+                margin-left: 5px;
+                font-family: $font-main;
+                font-weight: 800;
+                float: left;
             }
         }
         
         .topnav {
             overflow: hidden;
-            background-color: transparent;
-            float: right;
+            background-color: $black;
         }
 
-        .topnav a {
+        .topnav a {   
           float: left;
           display: block;
-          color: $blue;
+          color: $white;
+          font-weight: 100;
           text-align: center;
           padding: 8px;
           text-decoration: none;
