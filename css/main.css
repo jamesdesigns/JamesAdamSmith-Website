@@ -5,16 +5,16 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   float: left;
+  background-color: #000;
 }
 .header nav .topnav {
   overflow: hidden;
   background-color: #000;
-  float: right;
 }
 .header nav .topnav a {
   float: left;
   display: block;
-  color: #fff;
+  color: #ffff00;
   font-weight: 100;
   text-align: center;
   padding: 8px;
@@ -24,7 +24,7 @@
 }
 .header nav .topnav a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #696969;
 }
 .header nav .active {
   color: #fff;
@@ -221,7 +221,7 @@
 }
 .footer nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: red;
 }
 
 .container4 .author1, .container4 .author2 {
