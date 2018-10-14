@@ -22,7 +22,7 @@
         .topnav a {   
           float: left;
           display: block;
-          color: $white;
+          color: $yellow;
           font-weight: 100;
           text-align: center;
           padding: 8px;
@@ -33,7 +33,7 @@
 
         .topnav a:hover {
           background-color: transparent;
-          color: $white;
+          color: $gray;
         }
 
         .active {

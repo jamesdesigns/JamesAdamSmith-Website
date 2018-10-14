@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: $light-gray;
+        background-color: $light-gray; 
         padding: 20px 0 100px 0;
         
         li {
@@ -17,7 +17,7 @@
         }
         li a:hover {
             text-decoration: none;
-            color: $white;
+            color: red;
         }
     }
 }
